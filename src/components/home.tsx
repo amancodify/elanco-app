@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Card from "../components/card";
 import DisplayData from "../components/displayData";
 import { DebounceInput } from "react-debounce-input";
+import ElancoIcon from "../asset/elanco.png";
 
 const Home = () => {
     const [data, setData] = useState([]);
@@ -52,7 +53,7 @@ const Home = () => {
                 <div className="left-menu-bar">
                     <div className="img-container">
                         <a href="/">
-                            <img className="logo-img" src="../elanco.png" alt="" />
+                            <img className="logo-img" src={ElancoIcon} alt="" />
                         </a>
                     </div>
                     <div className="img-container">
