@@ -84,7 +84,7 @@ const Home = () => {
                             />
                             {workingData.length > 0 ? (
                                 <div className="title2">
-                                    Showing {workingData.length + 1} out of {data.length + 1}{" "}
+                                    Showing {workingData.length} out of {data.length}{" "}
                                     results
                                 </div>
                             ) : (
